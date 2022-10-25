@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+    /*background-color: pink;*/
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    /*background-color: blue;*/
+}
+
+.cell {
+    background-color: pink;
+    width: 100%;
+}
+
+.mouseover {
+    background-color: black;
+}
+button {
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: 20px auto;
+    background-color: rgb(179, 9, 65);
+    border-style: hidden;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+button:hover {
+    background-color: palevioletred;
+}
+button:active {
+    background-color: pink;
+}
